@@ -16,6 +16,10 @@ git clone --depth=1 --single-branch --branch "dev" https://github.com/vernesong/
 git clone --depth=1 --single-branch --branch "luci" https://github.com/xiaorouji/openwrt-passwall.git ./pw_luci
 git clone --depth=1 --single-branch --branch "packages" https://github.com/xiaorouji/openwrt-passwall.git ./pw_packages
 
+#增加应用过滤OpenAppFilter
+git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
+
+
 #预置OpenClash内核和GEO数据
 export CORE_VER=https://raw.githubusercontent.com/vernesong/OpenClash/core/dev/core_version
 export CORE_TUN=https://github.com/vernesong/OpenClash/raw/core/dev/premium/clash-linux
