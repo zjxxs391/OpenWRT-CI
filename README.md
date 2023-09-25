@@ -34,3 +34,5 @@ Config——自定义配置
   -- Rockchip.txt Mediatek.txt X64.txt 为各平台主要配置文件，用于设定机型及额外插件。
 
 增大了磁盘空间，默认IP改成192.168.1.31，增加了app过滤
+
+只编译了LEDE X64
